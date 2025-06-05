@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    color:white;
+    justify-content: center ;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-arounds;
+}
+.info{
+    font-size: large;
+}

@@ -87,3 +87,30 @@ p:hover{
     height: 100px;
     width: 100px;
 }
+.nav{
+    display: flex;
+    justify-content: space evenly;
+
+}
+li{
+    list-style: none;
+
+}
+    .grid-container{
+        display:grid;
+        
+        grid-template: 50px 50px / 50px 50px;
+        /*row-gap:20px;
+        column-gap;30px;*/
+
+    }
+    .grid-container div{
+        border: 2px solid royalblue;
+    }
+    .item1{
+        grid-column-start:  1;
+        grid-column-start: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
