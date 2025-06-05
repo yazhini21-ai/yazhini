@@ -1,0 +1,89 @@
+.parent p{
+    font-family: cursive;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+p:hover{
+    color: aliceblue;
+    background-color: azure;
+}
+
+.border{
+    border: 2px solid brown;
+    th, td {
+    border: 2px solid brown;
+    }
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+
+.margin{
+    border: 10px solid aquamarine;
+    margin-top: 50px;
+    padding: 10px 40px 15px 3px;
+    margin-left: 30px;
+}
+
+.position{
+    position: relative;
+    border: 3px solid blueviolet;
+    height: 100vh;
+}
+
+.relative{
+    position: relative;
+    top: 40px;
+    left: 80px;  
+}
+
+.page{
+    height: 100vh;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 150px;
+}
+
+.sticky{
+    position: sticky;
+    bottom: 10px;
+    left: 100px;
+}
+
+.inline{
+    display: inline-block;
+}
+    
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    border: 2px solid black;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex-container div{
+    background-color: aqua;
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+}
+
+.two{
+    flex-shrink: 0;
+}
+
+.items{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
