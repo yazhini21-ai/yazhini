@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+       <li>Home</li>
+       <li>Service</li>
+       <li>About</li>
+       <li>Contact</li>
+    </ul>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="regdno">Regd No:</label>
+        <input type="number" id="regdno" name="regdno" required><br>
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required><br>   
+        <button onclick="showInfo()" type="button">Submit</button> 
+        <h1 id="result"></h1>
+    </form>
+
+    <script>
+        function showInfo() {
+            const name = document.getElementById('name').value;
+            
+            const email = document.getElementById('email').value;
+           
+            const regdno = document.getElementById('regdno').value;
+            
+            const department = document.getElementById('department').value;
+            document.getElementById('result').innerText = `ame: ${name} Email: ${email} Regdno: ${regdno} Department: ${department}`
+        }
+        
+    </script>
+</body>
+</html>
+        
