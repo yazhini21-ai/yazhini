@@ -1,13 +1,80 @@
 .header{
+    background-color: #1f2937;
+    padding: 20px 6opx;
     display: flex;
+    justify-content: space-between;   
+    align-items: center;
     color:white;
-    justify-content: center ;
-    
 }
-.nav{
+.website{
+    background-color: #1f2937;
+    padding: 80px 6opx;
     display: flex;
-    justify-content: space-arounds;
+    justify-content: space-between;
+    gap: 40; 
+    color: white;
 }
-.info{
-    font-size: large;
+.web h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: white; 
+}
+.web button{
+    background-color: blue;
+    color: white;
+    padding:10px 24px;
+    border:none;
+    border: radius 5px;
+    cursor:pointer;
+    font-size: 16px;
+}
+.web image.placeholder{
+    background-color: #6b7280;
+    color: #e5e7eb;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.text{
+    padding: 60px;
+    text-align: center;
+}
+.text h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.text box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box1{
+    max-width: 150px;
+    text-align: center;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    border:2px solid #3882f6;
+    border: radius 8px;
+    margin: 0 auto 10px;
+}
+.quotes{
+    background-color: #e5e7eb;
+    padding:60px;
+    text-align: center;
+    font-style: italic;
+    color: #1f2937;
+}
+.author{
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.call{
+    
 }

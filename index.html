@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
   <!--<h2> comment this</h2>-->
   <p>
 
-HTML (HyperText Markup Language)** is the standard language used to create webpages.
+<!-- HTML (HyperText Markup Language)** is the standard language used to create webpages.
 It provides the **structure** of a webpage using elements like headings, paragraphs, lists, images, and links.
 HTML uses **tags** (like `<h1>`, `<p>`, `<a>`) to define different types of content.
 It works alongside **CSS** for styling and **JavaScript** for interactivity.
@@ -40,6 +40,17 @@ Browsers read HTML to **render** webpages for users to view and interact with.
         <li>apple</li>
       <li>mango</li>
     </ul>
-   <a href="https://www.atingi.org/" target="_self">vist google</a>
+   <a href="https://www.atingi.org/" target="_self">vist google</a> -->
+    -->
+   <input type="text" id="name">
+    <button onclick=showName()>Click</button> 
+    <h1 id="result">hello</h1>
+    <script>
+        function showName(){
+            const name=document.getElementById('name').value
+            document.getElementById('result').innerText=`Hello 
+            ${name}`
+        }
+    </script>
 </body> 
 </html>
